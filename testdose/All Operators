@@ -1,0 +1,57 @@
+1	++ 	Suffix increment			Right to left
+	-- 	Suffix decrement
+	() 	Function call
+	[] 	Array subscripting
+	. 	Element selection by reference
+	-> 	Element selection through pointer
+
+2	++ 	Prefix increment			Left to right
+	-- 	Prefix decrement
+	+ 	Unary plus
+	- 	Unary minus
+	! 	Logical NOT
+	~ 	Bitwise NOT
+	(type) 	Type cast
+	* 	Indirection (dereference)
+	& 	Address-of
+
+3	* 	Multiplication				Left to right
+	/ 	Division
+	% 	Modulo (remainder)
+
+4	+ 	Addition				Left to right
+	- 	Subtraction
+
+5 	<< 	Bitwise left shift			Left to right
+	>> 	Bitwise right shift
+
+6 	< 	Less than				Left to right
+	<= 	Less than or equal to
+	> 	Greater than
+	>= 	Greater than or equal to
+
+7 	== 	Equal to				Left to right
+	!= 	Not equal to
+
+8 	& 	Bitwise AND				Left to right
+
+9 	^ 	Bitwise XOR (exclusive or)		Left to right
+
+10 	| 	Bitwise OR (inclusive or)		Left to right
+
+11 	&& 	Logical AND				Left to right
+
+12 	|| 	Logical OR				Left to right
+
+13	= 	Direct assignment			Right to left
+	+= 	Assignment by sum
+	-= 	Assignment by difference
+	*= 	Assignment by product
+	/= 	Assignment by quotient
+	%= 	Assignment by remainder
+	<<= 	Assignment by bitwise left shift
+	>>= 	Assignment by bitwise right shift
+	&= 	Assignment by bitwise AND
+	^= 	Assignment by bitwise XOR
+	|= 	Assignment by bitwise OR
+eg: a = a ^ b ==> a ^= b
